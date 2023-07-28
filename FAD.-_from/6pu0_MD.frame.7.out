@@ -1,0 +1,1299 @@
+ ******************************************************************************
+ ******************************************************************************
+ ***                                                                        ***
+ ***                              PROGRAM deMon2k                           ***
+ ***                                                                        ***
+ ***                        (VERSION 6.0.2, Jul. 2018)                      ***
+ ***                                                                        ***
+ ***     COPYRIGHT (C) BY THE INTERNATIONAL DEMON DEVELOPERS COMMUNITY      ***
+ ***                                                                        ***
+ ***  AUTHORS: A.M. Koster, G. Geudtner, A. Alvarez-Ibarra, P. Calaminici,  ***
+ ***           M.E. Casida, J. Carmona-Espindola, V. Dominguez, R. Flores-  ***
+ ***           Moreno, G.U. Gamboa, A. Goursot, T. Heine, A. Ipatov, A. de  ***
+ ***           la Lande, F. Janetzko, J.M. del Campo, L.G.M. Pettersson,    ***
+ ***           D. Mejia-Rodriguez, J. Reveles, J. Vasquez-Perez, A. Vela,   ***
+ ***           B. Zuniga-Gutierrez and D.R. Salahub                         ***
+ ***                                                                        ***
+ ******************************************************************************
+ ******************************************************************************
+                                                                                
+
+ FIRST TIMING           DATE: WED DEC 08 20:10:20 2021  TOTAL TIME:       0.266
+                                                                                
+
+ INITIALIZATION                   STEP TIME:     0.028  TOTAL TIME:       0.295
+
+ ******************************************************************************
+
+ HFCC ON 6PU0 MD FRAME
+
+ ******************************************************************************
+
+ 
+ *** MOLECULAR SIMULATION DATA ***
+ 
+ MOLECULAR CHARGE: -1
+ NUMBER OF ATOMS: 39
+ MOLECULAR SIMULATION TYPE: QM ONLY
+ 
+ *** MOLECULAR QM DATA ***
+ 
+ MULTIPLICITY: 2
+ NUMBER OF QM ATOMS: 39
+ NUMBER OF ELECTRONS: 167
+ 
+ *** SCF OPTIONS ***
+ 
+ SCF THEORY: UNRESTRICTED KOHN-SHAM (UKS)
+ DIAGONALIZER: RS
+ START GUESS: HUECKEL DENSITY
+ SCF TOLERANCE: 0.100E-04
+ POTENTIAL DENSITY: FITTED DENSITY
+ NUMBER OF SCF ITERATIONS: 100
+ DIIS ACCELERATION: ON
+ LEVEL-SHIFT: ON (SHIFT VALUE = -0.100 HARTREE)
+ XC-POTENTIAL: B3LYP - B3LYP
+ GRID TECHNIQUE: ADAPTIVE
+ GRID PRUNING: ON
+ GRID METHOD: DIRECT
+ GRID GENERATING FUNCTION: SCF
+ GRID TOLERANCE: 0.100E-05
+ ATOMIC WEIGHT FUNCTION: BECKE SCREENED
+ RADIAL QUADRATURE TYPE: GAUSS-CHEBYSHEV
+ SCF METHODE: MIXED & DOUBLE ASYMPTOTIC EXPANSION
+ FREEZE AUXILIARY FUNCTIONS: OFF
+ NUMERICAL FIT SOLVER: DIAGONAL SVD
+ SVD THRESHOLD: 0.100E-05
+ SCF SCREENING: 0.599E-12
+ SYMMETRY USE: OFF
+ ROTATION OF THE ANGULAR GRIDS: ON
+ SCF PRINTING UNTIL CYCLE 0
+ CARTESIAN ORBITALS WILL BE USED
+ 
+ *** MAGNETIC PROPERTY OPTIONS ***
+ 
+ CALCULATE EPR HYPERFINE COUPLING
+ 
+ *** PRINT OPTIONS ***
+ 
+ PRINT NMR DEBUG OUTPUT
+ 
+ *** ACTIVATED INTERFACE PORTS ***
+ 
+ FILE deMon.mol WILL BE WRITTEN
+ 
+ 
+ *** GEOMETRY ***
+
+
+ INPUT ORIENTATION IN ANGSTROM
+
+  NO.  ATOM        X            Y            Z      Z-ATOM   MASS   TYPE OPTXYZ
+
+    1  C        -2.670354     1.445203    -1.241332     6    12.011  QM       
+    2  O        -2.859514     2.391565    -0.184722     8    15.999  QM       
+    3  C        -2.530138     0.070483    -0.687458     6    12.011  QM       
+    4  O        -2.341021    -0.867130    -1.782247     8    15.999  QM       
+    5  C        -1.407608     0.032769     0.423630     6    12.011  QM       
+    6  N         0.074942     2.319255    -0.118277     7    14.007  QM       
+    7  C         0.660015     3.540458    -0.057321     6    12.011  QM       
+    8  O        -0.087630     4.537577    -0.011506     8    15.999  QM       
+    9  N         1.996059     3.622868    -0.094928     7    14.007  QM       
+   10  C         2.890170     2.534873    -0.067385     6    12.011  QM       
+   11  C         2.221491     1.187651    -0.085261     6    12.011  QM       
+   12  O         4.118844     2.690183    -0.030106     8    15.999  QM       
+   13  C         2.164993    -1.185936    -0.130260     6    12.011  QM       
+   14  N01       2.830383    -0.004929     0.004772     7    14.007  QM       
+   15  C         2.884676    -2.376726    -0.125430     6    12.011  QM       
+   16  C         2.172551    -3.584151    -0.125321     6    12.011  QM       
+   17  C         2.933400    -4.968334     0.012378     6    12.011  QM       
+   18  C         0.765293    -3.606316    -0.129044     6    12.011  QM       
+   19  C        -0.106880    -4.871318    -0.103375     6    12.011  QM       
+   20  C         0.079035    -2.419478    -0.146173     6    12.011  QM       
+   21  C         0.763978    -1.180861    -0.113580     6    12.011  QM       
+   22  C         0.747624     1.166800    -0.114951     6    12.011  QM       
+   23  N02       0.000000     0.000000     0.000000     7    14.007  QM       
+   24  H        -2.959531    -0.516793    -2.446786     1     1.008  QM       
+   25  H        -1.961319     2.572958     0.141597     1     1.008  QM       
+   26  H         2.422831     4.529510    -0.246220     1     1.008  QM       
+   27  H08       3.970158    -2.339230    -0.129922     1     1.008  QM       
+   28  H        -1.004886    -2.359812    -0.110946     1     1.008  QM       
+   29  H        -3.536820     1.471204    -1.902137     1     1.008  QM       
+   30  H04      -1.664744    -0.793270     1.097673     1     1.008  QM       
+   31  H        -3.469284    -0.116718    -0.151109     1     1.008  QM       
+   32  H        -1.762150     1.706852    -1.799162     1     1.008  QM       
+   33  H071      3.941010    -4.973970     0.446347     1     1.008  QM       
+   34  H072      3.151212    -5.273822    -1.017915     1     1.008  QM       
+   35  H073      2.511639    -5.727577     0.683314     1     1.008  QM       
+   36  H061      0.391028    -5.684037    -0.645040     1     1.008  QM       
+   37  H062     -1.062795    -4.778775    -0.632760     1     1.008  QM       
+   38  H063     -0.321791    -5.220970     0.913361     1     1.008  QM       
+   39  H03      -1.527699     0.749269     1.245077     1     1.008  QM       
+
+
+ 
+ 
+ *** WARNING IN INPCHK ***
+ 
+ *** START GUESS IS CALCULATED WITH VXCTYPE PBE AUXIS ***
+ 
+ 
+ 
+ *** ERI STATISTIC ***
+ 
+ Est. Integrated ERIs: 108659465
+ Est. Asymptotic ERIS: 88685
+                                                                                
+
+ INPUT                            STEP TIME:     0.288  TOTAL TIME:       0.583
+ 
+ *** THE INPUT ORIENTATION IS USED ***
+ 
+ POINT GROUP: C1
+ 
+ GROUP ORDER: 1
+
+
+ STANDARD ORIENTATION IN ANGSTROM
+
+  NO.  ATOM        X              Y              Z        Z-ATOM   MASS   TYPE
+
+    1  C         1.912254      -3.078480       0.610688       6    12.011  QM
+    2  O         2.867754      -2.966860      -0.448730       8    15.999  QM
+    3  C         0.529068      -3.106545       0.060869       6    12.011  QM
+    4  O        -0.417471      -3.221562       1.158266       8    15.999  QM
+    5  C         0.289594      -1.875055      -0.899391       6    12.011  QM
+    6  N         2.292460      -0.103880      -0.143677       7    14.007  QM
+    7  C         3.394589       0.684651      -0.113787       6    12.011  QM
+    8  O         4.504759       0.130829      -0.240761       8    15.999  QM
+    9  N         3.246872       1.999280       0.093938       7    14.007  QM
+   10  C         2.021405       2.689957       0.165510       6    12.011  QM
+   11  C         0.809098       1.803636       0.080623       6    12.011  QM
+   12  O         1.963271       3.921694       0.286318       8    15.999  QM
+   13  C        -1.519112       1.336158       0.086615       6    12.011  QM
+   14  N01      -0.471009       2.205690       0.052679       7    14.007  QM
+   15  C        -2.815719       1.835927       0.157244       6    12.011  QM
+   16  C        -3.883011       0.933392       0.050867       6    12.011  QM
+   17  C        -5.378361       1.457146      -0.007637       6    12.011  QM
+   18  C        -3.663364      -0.445747      -0.124091       6    12.011  QM
+   19  C        -4.760140      -1.511259      -0.276868       6    12.011  QM
+   20  C        -2.376277      -0.915101      -0.178338       6    12.011  QM
+   21  C        -1.273880      -0.029622      -0.107428       6    12.011  QM
+   22  C         1.041695       0.356345      -0.077004       6    12.011  QM
+   23  N02       0.019510      -0.559313      -0.301248       7    14.007  QM
+   24  H         0.039593      -3.850313       1.743643       1     1.008  QM
+   25  H         2.889487      -2.016782      -0.656145       1     1.008  QM
+   26  H         4.068135       2.552289       0.310110       1     1.008  QM
+   27  H08      -2.964982       2.902278       0.299772       1     1.008  QM
+   28  H        -2.131833      -1.959376      -0.349864       1     1.008  QM
+   29  H         2.092315      -4.004560       1.156634       1     1.008  QM
+   30  H04      -0.485944      -2.182068      -1.611483       1     1.008  QM
+   31  H         0.501090      -3.987953      -0.592618       1     1.008  QM
+   32  H         2.019070      -2.217280       1.282547       1     1.008  QM
+   33  H071     -5.560592       2.495772      -0.310437       1     1.008  QM
+   34  H072     -5.707662       1.486637       1.037810       1     1.008  QM
+   35  H073     -6.059824       1.000343      -0.736627       1     1.008  QM
+   36  H061     -5.641464      -1.232880       0.312707       1     1.008  QM
+   37  H062     -4.500330      -2.496624       0.128275       1     1.008  QM
+   38  H063     -5.076618      -1.651854      -1.317190       1     1.008  QM
+   39  H03       1.008857      -1.765224      -1.719858       1     1.008  QM
+                                                                                
+
+ SYMMETRY ANALYSIS                STEP TIME:     0.000  TOTAL TIME:       0.585
+ 
+ NUMBER OF TB ORBITALS: 131
+                                                                                
+
+ START GUESS                      STEP TIME:     3.537  TOTAL TIME:       4.127
+ 
+ 
+ GENERAL BASIS SET: (DZVP-GGA)
+ N01 BASIS SET: (EPR-III)
+ N02 BASIS SET: (EPR-III)
+ H08 BASIS SET: (EPR-III)
+ H04 BASIS SET: (EPR-III)
+ H071 BASIS SET: (EPR-III)
+ H072 BASIS SET: (EPR-III)
+ H073 BASIS SET: (EPR-III)
+ H061 BASIS SET: (EPR-III)
+ H062 BASIS SET: (EPR-III)
+ H063 BASIS SET: (EPR-III)
+ H03 BASIS SET: (EPR-III)
+ 
+ NUMBER OF SHELLS: 227
+ NUMBER OF ORBITALS: 502
+ NUMBER OF PRIMITIVE GAUSSIAN EXPONENTS: 469
+ 
+ 
+ GENERAL AUXIS SET: (GEN-A2)
+ N01 AUXIS SET: (GEN-A2*)
+ N02 AUXIS SET: (GEN-A2*)
+ H08 AUXIS SET: (GEN-A2*)
+ H04 AUXIS SET: (GEN-A2*)
+ H071 AUXIS SET: (GEN-A2*)
+ H072 AUXIS SET: (GEN-A2*)
+ H073 AUXIS SET: (GEN-A2*)
+ H061 AUXIS SET: (GEN-A2*)
+ H062 AUXIS SET: (GEN-A2*)
+ H063 AUXIS SET: (GEN-A2*)
+ H03 AUXIS SET: (GEN-A2*)
+ 
+ NUMBER OF AUXILIARY FUNCTION SETS: 238
+ NUMBER OF AUXILIARY FUNCTION SHELLS: 436
+ NUMBER OF AUXILIARY FUNCTION: 1225
+ 
+ 
+ 
+ *** WARNING IN INVCDERI ***
+ 
+ *** 11 COULOMB EIGENVALUES ARE QUENCHED ***
+                                                                                
+
+ MPI AUXILIARY FUNCTION FIT       STEP TIME:     0.413  TOTAL TIME:       4.714
+                                                                                
+
+ CORE INTEGRALS                   STEP TIME:     0.661  TOTAL TIME:       4.789
+                                                                                
+
+ NULLSPACE                        STEP TIME:     0.083  TOTAL TIME:       5.289
+                                                                                
+
+ NULLSPACE                        STEP TIME:     0.076  TOTAL TIME:       5.459
+                                                                                
+
+ ADAPTIVE GRID GENERATION         STEP TIME:     1.283  TOTAL TIME:       9.057
+
+ CYCLE:    1    EUPPER =    -2908.499003335533    CDMIX =        0.300000000000
+ CYCLE:    1    ELOWER =    -5381.575600339715    SHIFT =        0.000000000000
+ CYCLE:    1    EXC    =     -148.314317720392    ERCDC =       50.308584384227
+ CYCLE:    1    ETOTAL =    -3056.813321055924    ERROR =     2473.076597004182
+
+ CYCLE:    2    EUPPER =    -2907.283194246927    CDMIX =        0.300000000000
+ CYCLE:    2    ELOWER =    -2912.076911535805    SHIFT =        0.100000000000
+ CYCLE:    2    EXC    =     -149.222763075891    ERCDC =        1.225926558051
+ CYCLE:    2    ETOTAL =    -3056.505957322818    ERROR =        4.793717288878
+
+ CYCLE:    3    EUPPER =    -2908.454581949424    CDMIX =        0.300000000000
+ CYCLE:    3    ELOWER =    -2909.481271946763    SHIFT =        0.100000000000
+ CYCLE:    3    EXC    =     -149.764748483185    ERCDC =        0.509143920777
+ CYCLE:    3    ETOTAL =    -3058.219330432609    ERROR =        1.026689997339
+
+ CYCLE:    4    EUPPER =    -2908.994407546896    CDMIX =        0.300000000000
+ CYCLE:    4    ELOWER =    -2909.196459037598    SHIFT =        0.100000000000
+ CYCLE:    4    EXC    =     -150.088230847061    ERCDC =        0.184841405680
+ CYCLE:    4    ETOTAL =    -3059.082638393957    ERROR =        0.202051490703
+
+ CYCLE:    5    EUPPER =    -2909.264496852420    CDMIX =        0.300000000000
+ CYCLE:    5    ELOWER =    -2909.344183144358    SHIFT =        0.085219357850
+ CYCLE:    5    EXC    =     -150.227343577504    ERCDC =        0.124177244702
+ CYCLE:    5    ETOTAL =    -3059.491840429925    ERROR =        0.079686291938
+
+ CYCLE:    6    EUPPER =    -2909.449578637648    CDMIX =        0.300000000000
+ CYCLE:    6    ELOWER =    -2909.476220875526    SHIFT =        0.076620059698
+ CYCLE:    6    EXC    =     -150.279524660431    ERCDC =        0.047005931215
+ CYCLE:    6    ETOTAL =    -3059.729103298079    ERROR =        0.026642237878
+
+ CYCLE:    7    EUPPER =    -2909.528141550019    CDMIX =        0.300000000000
+ CYCLE:    7    ELOWER =    -2909.538514300142    SHIFT =        0.066494161552
+ CYCLE:    7    EXC    =     -150.306473750638    ERCDC =        0.025958440642
+ CYCLE:    7    ETOTAL =    -3059.834615300656    ERROR =        0.010372750124
+
+ CYCLE:    8    EUPPER =    -2909.551901823705    CDMIX =        0.300000000000
+ CYCLE:    8    ELOWER =    -2909.556415879306    SHIFT =        0.057775723570
+ CYCLE:    8    EXC    =     -150.325952382285    ERCDC =        0.016046212233
+ CYCLE:    8    ETOTAL =    -3059.877854205990    ERROR =        0.004514055601
+
+ CYCLE:    9    EUPPER =    -2909.559091758583    CDMIX =        0.300000000000
+ CYCLE:    9    ELOWER =    -2909.561105522825    SHIFT =        0.050086229669
+ CYCLE:    9    EXC    =     -150.339899462667    ERCDC =        0.012421228823
+ CYCLE:    9    ETOTAL =    -3059.898991221250    ERROR =        0.002013764241
+
+ CYCLE:   10    EUPPER =    -2909.562857375146    CDMIX =        0.300000000000
+ CYCLE:   10    ELOWER =    -2909.563788039795    SHIFT =        0.042625907960
+ CYCLE:   10    EXC    =     -150.366802576850    EDIIS =        0.010677836242
+ CYCLE:   10    ETOTAL =    -3059.929659951996    ERROR =        0.000930664650
+
+ CYCLE:   11    EUPPER =    -2909.570117478620    CDMIX =        0.300000000000
+ CYCLE:   11    ELOWER =    -2909.570190765548    SHIFT =        0.035492101904
+ CYCLE:   11    EXC    =     -150.364893418231    EDIIS =        0.005701836243
+ CYCLE:   11    ETOTAL =    -3059.935010896852    ERROR =        0.000073286928
+
+ CYCLE:   12    EUPPER =    -2909.567620488188    CDMIX =        0.300000000000
+ CYCLE:   12    ELOWER =    -2909.567623268490    SHIFT =        0.012002556392
+ CYCLE:   12    EXC    =     -150.366673027397    EDIIS =        0.003307862072
+ CYCLE:   12    ETOTAL =    -3059.934293515585    ERROR =        0.000002780302
+
+ CYCLE:   13    EUPPER =    -2909.568556418339    CDMIX =        0.300000000000
+ CYCLE:   13    ELOWER =    -2909.568557518561    SHIFT =        0.000000000000
+ CYCLE:   13    EXC    =     -150.366613593433    EDIIS =        0.002268857992
+ CYCLE:   13    ETOTAL =    -3059.935170011772    ERROR =        0.000001100222
+
+ CYCLE:   14    EUPPER =    -2909.568001079708    CDMIX =        0.300000000000
+ CYCLE:   14    ELOWER =    -2909.568001454002    SHIFT =        0.000000000000
+ CYCLE:   14    EXC    =     -150.366820517530    EDIIS =        0.001414104865
+ CYCLE:   14    ETOTAL =    -3059.934821597238    ERROR =        0.000000374294
+
+ CYCLE:   15    EUPPER =    -2909.567970569435    CDMIX =        0.300000000000
+ CYCLE:   15    ELOWER =    -2909.567970639843    SHIFT =        0.000000000000
+ CYCLE:   15    EXC    =     -150.366919369394    EDIIS =        0.000907900806
+ CYCLE:   15    ETOTAL =    -3059.934889938828    ERROR =        0.000000070409
+
+ CYCLE:   16    EUPPER =    -2909.567783175523    CDMIX =        0.200000000000
+ CYCLE:   16    ELOWER =    -2909.567783263456    SHIFT =        0.000000000000
+ CYCLE:   16    EXC    =     -150.367065023529    EDIIS =        0.000419878312
+ CYCLE:   16    ETOTAL =    -3059.934848199052    ERROR =        0.000000087933
+
+ CYCLE:   17    EUPPER =    -2909.567949318237    CDMIX =        0.200000000000
+ CYCLE:   17    ELOWER =    -2909.567949341170    SHIFT =        0.000000000000
+ CYCLE:   17    EXC    =     -150.367012077273    ERCDC =        0.000443151248
+ CYCLE:   17    ETOTAL =    -3059.934961395510    ERROR =        0.000000022932
+ 
+ *** SCF CONVERGED ***
+ 
+ 
+ RANDOMIZED SCF GRID GENERATED IN 5 CYCLES
+ 
+
+ REFERENCE VALUE OF S**2 FOR PURE SPIN STATE S(S+1):    0.7500
+
+ S**2 BEFORE SPIN PROJECTION:    0.7611
+ S**2 AFTER SPIN PROJECTION:     0.7501
+
+
+ ELECTRONIC CORE ENERGY      =      -5414.104485303
+ ELECTRONIC COULOMB ENERGY   =       2504.538155950
+ ELECTRONIC HARTREE ENERGY   =      -2909.566329353
+
+ EXCHANGE ENERGY             =       -142.997182130
+ CORRELATION ENERGY          =         -7.378855934
+ EXCHANGE-CORRELATION ENERGY =       -150.376038063
+
+ ELECTRONIC SCF ENERGY       =      -3059.942367417
+ NUCLEAR-REPULSION ENERGY    =       1958.589245355
+ TOTAL ENERGY                =      -1101.353122062
+                                                                                
+
+ SCF ITERATION                    STEP TIME:    58.343  TOTAL TIME:      65.980
+ 
+ 
+ 
+ ***********************************************
+ *** MOLECULAR MAGNETIC PROPERTY CALCULATION ***
+ ***********************************************
+
+
+ MOLECULE ORIENTATION FOR MAGNETIC PROPERTIES IN ANGSTROM
+
+  NO.  ATOM        X              Y              Z        Z-ATOM   MASS   TYPE
+
+    1  C        -2.670354       1.445203      -1.241332       6    12.011  QM
+    2  O        -2.859514       2.391565      -0.184722       8    15.999  QM
+    3  C        -2.530138       0.070483      -0.687458       6    12.011  QM
+    4  O        -2.341021      -0.867130      -1.782247       8    15.999  QM
+    5  C        -1.407608       0.032769       0.423630       6    12.011  QM
+    6  N         0.074942       2.319255      -0.118277       7    14.007  QM
+    7  C         0.660015       3.540458      -0.057321       6    12.011  QM
+    8  O        -0.087630       4.537577      -0.011506       8    15.999  QM
+    9  N         1.996059       3.622868      -0.094928       7    14.007  QM
+   10  C         2.890170       2.534873      -0.067385       6    12.011  QM
+   11  C         2.221491       1.187651      -0.085261       6    12.011  QM
+   12  O         4.118844       2.690183      -0.030106       8    15.999  QM
+   13  C         2.164993      -1.185936      -0.130260       6    12.011  QM
+   14  N01       2.830383      -0.004929       0.004772       7    14.007  QM
+   15  C         2.884676      -2.376726      -0.125430       6    12.011  QM
+   16  C         2.172551      -3.584151      -0.125321       6    12.011  QM
+   17  C         2.933400      -4.968334       0.012378       6    12.011  QM
+   18  C         0.765293      -3.606316      -0.129044       6    12.011  QM
+   19  C        -0.106880      -4.871318      -0.103375       6    12.011  QM
+   20  C         0.079035      -2.419478      -0.146173       6    12.011  QM
+   21  C         0.763978      -1.180861      -0.113580       6    12.011  QM
+   22  C         0.747624       1.166800      -0.114951       6    12.011  QM
+   23  N02       0.000000       0.000000       0.000000       7    14.007  QM
+   24  H        -2.959531      -0.516793      -2.446786       1     1.008  QM
+   25  H        -1.961319       2.572958       0.141597       1     1.008  QM
+   26  H         2.422831       4.529510      -0.246220       1     1.008  QM
+   27  H08       3.970158      -2.339230      -0.129922       1     1.008  QM
+   28  H        -1.004886      -2.359812      -0.110946       1     1.008  QM
+   29  H        -3.536820       1.471204      -1.902137       1     1.008  QM
+   30  H04      -1.664744      -0.793270       1.097673       1     1.008  QM
+   31  H        -3.469284      -0.116718      -0.151109       1     1.008  QM
+   32  H        -1.762150       1.706852      -1.799162       1     1.008  QM
+   33  H071      3.941010      -4.973970       0.446347       1     1.008  QM
+   34  H072      3.151212      -5.273822      -1.017915       1     1.008  QM
+   35  H073      2.511639      -5.727577       0.683314       1     1.008  QM
+   36  H061      0.391028      -5.684037      -0.645040       1     1.008  QM
+   37  H062     -1.062795      -4.778775      -0.632760       1     1.008  QM
+   38  H063     -0.321791      -5.220970       0.913361       1     1.008  QM
+   39  H03      -1.527699       0.749269       1.245077       1     1.008  QM
+
+
+ *** ATOM 14 ( N01 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -0.0278       0.2525      -8.8056        X     -17.0243       0.2447      -8.7989
+ Y       0.2600      -1.1989      -1.2285        Y       0.2447     -18.2593      -1.2297
+ Z      -8.8074      -1.2282      52.3350        Z      -8.7989      -1.2297      35.2837
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      17.0552       0.0000       0.0000        X     -18.4746       0.0000       0.0000
+ Y       0.0000      17.0552       0.0000        Y       0.0000     -18.2781       0.0000
+ Z       0.0000       0.0000      17.0552        Z       0.0000       0.0000      36.7526
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 14 ( N01 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:        17.0552     17.0552     17.0552
+ SPIN-DIPOLE :       -18.4746    -18.2781     36.7526
+ SOC-PSO     :        -0.0586      0.0052     -0.0039     -0.0191
+ A_ISOTROPIC:         17.0361
+
+
+ *** ATOM 23 ( N02 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       0.5996       0.0565       3.3427        X      -4.0454       0.0543       3.3398
+ Y       0.0522      -0.4154       0.0532        Y       0.0543      -5.0550       0.0535
+ Z       3.3421       0.0531      13.7545        Z       3.3398       0.0535       9.1004
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       4.6556       0.0000       0.0000        X      -5.0628       0.0000       0.0000
+ Y       0.0000       4.6556       0.0000        Y       0.0000      -4.8378       0.0000
+ Z       0.0000       0.0000       4.6556        Z       0.0000       0.0000       9.9006
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 23 ( N02 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:         4.6556      4.6556      4.6556
+ SPIN-DIPOLE :        -5.0628     -4.8378      9.9006
+ SOC-PSO     :        -0.0106     -0.0160     -0.0015     -0.0094
+ A_ISOTROPIC:          4.6462
+
+
+ *** ATOM 27 ( H08 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -4.7761      -1.4403       0.1286        X       4.2199      -1.4389       0.1290
+ Y      -1.4395     -11.6011       0.0514        Y      -1.4389      -2.6094       0.0514
+ Z       0.1288       0.0517     -10.6065        Z       0.1290       0.0514      -1.6105
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -8.9966       0.0000       0.0000        X      -2.9047       0.0000       0.0000
+ Y       0.0000      -8.9966       0.0000        Y       0.0000      -1.6082       0.0000
+ Z       0.0000       0.0000      -8.9966        Z       0.0000       0.0000       4.5129
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 27 ( H08 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:        -8.9966     -8.9966     -8.9966
+ SPIN-DIPOLE :        -2.9047     -1.6082      4.5129
+ SOC-PSO     :         0.0006      0.0049      0.0005      0.0020
+ A_ISOTROPIC:         -8.9945
+
+
+ *** ATOM 30 ( H04 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       3.7877       0.6505      -1.2486        X       1.5103       0.6488      -1.2488
+ Y       0.6486       1.5621      -0.2704        Y       0.6488      -0.7154      -0.2704
+ Z      -1.2496      -0.2710       1.4818        Z      -1.2488      -0.2704      -0.7949
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       2.2766       0.0000       0.0000        X      -1.3420       0.0000       0.0000
+ Y       0.0000       2.2766       0.0000        Y       0.0000      -0.8830       0.0000
+ Z       0.0000       0.0000       2.2766        Z       0.0000       0.0000       2.2251
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 30 ( H04 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:         2.2766      2.2766      2.2766
+ SPIN-DIPOLE :        -1.3420     -0.8830      2.2251
+ SOC-PSO     :         0.0008      0.0008      0.0001      0.0006
+ A_ISOTROPIC:          2.2772
+
+
+ *** ATOM 33 ( H071 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -1.2969      -0.5155       0.0963        X      -0.2140      -0.5150       0.0963
+ Y      -0.5150      -0.2662      -0.1447        Y      -0.5150       0.8157      -0.1448
+ Z       0.0963      -0.1450      -1.6843        Z       0.0963      -0.1448      -0.6017
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -1.0827       0.0000       0.0000        X      -0.6250       0.0000       0.0000
+ Y       0.0000      -1.0827       0.0000        Y       0.0000      -0.4217       0.0000
+ Z       0.0000       0.0000      -1.0827        Z       0.0000       0.0000       1.0467
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 33 ( H071 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:        -1.0827     -1.0827     -1.0827
+ SPIN-DIPOLE :        -0.6250     -0.4217      1.0467
+ SOC-PSO     :        -0.0003      0.0008      0.0001      0.0002
+ A_ISOTROPIC:         -1.0825
+
+
+ *** ATOM 34 ( H072 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -4.1210      -0.2993      -0.1122        X      -0.0642      -0.2993      -0.1123
+ Y      -0.2993      -3.4157       0.3119        Y      -0.2993       0.6405       0.3119
+ Z      -0.1123       0.3122      -4.6331        Z      -0.1123       0.3119      -0.5763
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -4.0568       0.0000       0.0000        X      -0.6546       0.0000       0.0000
+ Y       0.0000      -4.0568       0.0000        Y       0.0000      -0.1741       0.0000
+ Z       0.0000       0.0000      -4.0568        Z       0.0000       0.0000       0.8287
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 34 ( H072 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:        -4.0568     -4.0568     -4.0568
+ SPIN-DIPOLE :        -0.6546     -0.1741      0.8287
+ SOC-PSO     :        -0.0000      0.0006      0.0001      0.0002
+ A_ISOTROPIC:         -4.0566
+
+
+ *** ATOM 35 ( H073 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -1.1555      -0.4470       0.1068        X      -0.1923      -0.4470       0.1068
+ Y      -0.4472      -0.2325      -0.2428        Y      -0.4470       0.7301      -0.2428
+ Z       0.1069      -0.2429      -1.5007        Z       0.1068      -0.2428      -0.5378
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      -0.9631       0.0000       0.0000        X      -0.5850       0.0000       0.0000
+ Y       0.0000      -0.9631       0.0000        Y       0.0000      -0.3732       0.0000
+ Z       0.0000       0.0000      -0.9631        Z       0.0000       0.0000       0.9582
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 35 ( H073 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:        -0.9631     -0.9631     -0.9631
+ SPIN-DIPOLE :        -0.5850     -0.3732      0.9582
+ SOC-PSO     :        -0.0001      0.0005      0.0001      0.0001
+ A_ISOTROPIC:         -0.9629
+
+
+ *** ATOM 36 ( H061 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       3.4861       0.5670       0.1184        X      -0.6677       0.5668       0.1184
+ Y       0.5668       5.5781       0.3327        Y       0.5668       1.4240       0.3327
+ Z       0.1182       0.3328       3.3975        Z       0.1184       0.3327      -0.7563
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       4.1538       0.0000       0.0000        X      -0.8426       0.0000       0.0000
+ Y       0.0000       4.1538       0.0000        Y       0.0000      -0.7771       0.0000
+ Z       0.0000       0.0000       4.1538        Z       0.0000       0.0000       1.6197
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 36 ( H061 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:         4.1538      4.1538      4.1538
+ SPIN-DIPOLE :        -0.8426     -0.7771      1.6197
+ SOC-PSO     :        -0.0000      0.0003     -0.0000      0.0001
+ A_ISOTROPIC:          4.1539
+
+
+ *** ATOM 37 ( H062 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       5.2020       0.8922       0.1716        X       0.5348       0.8920       0.1715
+ Y       0.8923       4.8374       0.1989        Y       0.8920       0.1705       0.1989
+ Z       0.1718       0.1989       3.9614        Z       0.1715       0.1989      -0.7053
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       4.6667       0.0000       0.0000        X      -0.7494       0.0000       0.0000
+ Y       0.0000       4.6667       0.0000        Y       0.0000      -0.5471       0.0000
+ Z       0.0000       0.0000       4.6667        Z       0.0000       0.0000       1.2965
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 37 ( H062 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:         4.6667      4.6667      4.6667
+ SPIN-DIPOLE :        -0.7494     -0.5471      1.2965
+ SOC-PSO     :         0.0005      0.0003      0.0000      0.0003
+ A_ISOTROPIC:          4.6669
+
+
+ *** ATOM 38 ( H063 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      15.7937       0.9863      -0.2862        X      -0.1498       0.9860      -0.2862
+ Y       0.9864      16.6635      -0.5353        Y       0.9860       0.7197      -0.5354
+ Z      -0.2862      -0.5356      15.3737        Z      -0.2862      -0.5354      -0.5699
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X      15.9435       0.0000       0.0000        X      -0.8245       0.0000       0.0000
+ Y       0.0000      15.9435       0.0000        Y       0.0000      -0.7119       0.0000
+ Z       0.0000       0.0000      15.9435        Z       0.0000       0.0000       1.5363
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 38 ( H063 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:        15.9435     15.9435     15.9435
+ SPIN-DIPOLE :        -0.8245     -0.7119      1.5363
+ SOC-PSO     :        -0.0000      0.0003      0.0000      0.0001
+ A_ISOTROPIC:         15.9436
+
+
+ *** ATOM 39 ( H03 ) ***
+
+ RAW TENSOR (FC+SD+SOC-PSO and SD) [MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       6.1105      -0.4821      -1.3807        X       1.5093      -0.4820      -1.3808
+ Y      -0.4823       3.7889       0.3250        Y      -0.4820      -0.8110       0.3250
+ Z      -1.3815       0.3251       3.9019        Z      -1.3808       0.3250      -0.6984
+ 
+
+ HFC TENSOR (FC and SD) MHz]
+
+           X            Y            Z                     X            Y            Z
+ X       4.6003       0.0000       0.0000        X      -1.3772       0.0000       0.0000
+ Y       0.0000       4.6003       0.0000        Y       0.0000      -0.9031       0.0000
+ Z       0.0000       0.0000       4.6003        Z       0.0000       0.0000       2.2804
+ 
+ HYPERFINE COUPLING CONSTANT FOR ATOM 39 ( H03 ) [MHz]
+                        X           Y           Z
+ FERMI-CONACT:         4.6003      4.6003      4.6003
+ SPIN-DIPOLE :        -1.3772     -0.9031      2.2804
+ SOC-PSO     :         0.0009     -0.0004     -0.0000      0.0002
+ A_ISOTROPIC:          4.6005
+
+
+ 
+ TIMING STATISTICS (SECONDS)
+ 
+
+ TIMER ENTRY                    NUMBER OF CALLS   CUMUL. CPU TIME   CONTRIBUT.
+
+ INITIALIZATION                              1             0.028         0.0 %
+ INPUT                                       1             0.288         0.4 %
+ DIAGONALIZATION                            96             0.012         0.0 %
+ SYMMETRY ANALYSIS                           3             0.001         0.0 %
+ START GUESS                                 1             3.537         4.7 %
+ MATRIX MULTIPLICATION                    6024             0.163         0.2 %
+ MPI DIAGONALIZATION                        53             2.968         3.9 %
+                         ON NODE             1             2.971
+                         ON NODE             2             2.971
+                         ON NODE             3             2.971
+                         ON NODE             4             2.970
+                         ON NODE             5             2.971
+                         ON NODE             6             2.971
+                         ON NODE             7             2.971
+                         ON NODE             8             2.971
+                         ON NODE             9             2.971
+                         ON NODE            10             2.971
+                         ON NODE            11             2.971
+                         ON NODE            12             2.971
+                         ON NODE            13             2.971
+                         ON NODE            14             2.971
+                         ON NODE            15             2.971
+                         ON NODE            16             2.971
+                         ON NODE            17             2.971
+                         ON NODE            18             2.970
+                         ON NODE            19             2.971
+                         ON NODE            20             2.971
+                         ON NODE            21             2.971
+                         ON NODE            22             2.971
+                         ON NODE            23             2.971
+                         ON NODE            24             2.971
+                         ON NODE            25             2.971
+                         ON NODE            26             2.971
+                         ON NODE            27             2.971
+                         ON NODE            28             2.971
+                         ON NODE            29             2.971
+                         ON NODE            30             2.971
+                         ON NODE            31             2.971
+                         ON NODE            32             2.971
+                         ON NODE            33             2.971
+                         ON NODE            34             2.971
+                         ON NODE            35             2.971
+                         ON NODE            36             2.971
+                         ON NODE            37             2.971
+                         ON NODE            38             2.971
+                         ON NODE            39             2.970
+           AVERAGE PER PROCESSOR                           2.971
+ MPI MATRIX MULTIPLICATION                 144             0.810         1.1 %
+                         ON NODE             1             0.812
+                         ON NODE             2             0.812
+                         ON NODE             3             0.812
+                         ON NODE             4             0.811
+                         ON NODE             5             0.812
+                         ON NODE             6             0.812
+                         ON NODE             7             0.812
+                         ON NODE             8             0.812
+                         ON NODE             9             0.812
+                         ON NODE            10             0.812
+                         ON NODE            11             0.812
+                         ON NODE            12             0.812
+                         ON NODE            13             0.812
+                         ON NODE            14             0.812
+                         ON NODE            15             0.812
+                         ON NODE            16             0.812
+                         ON NODE            17             0.811
+                         ON NODE            18             0.812
+                         ON NODE            19             0.812
+                         ON NODE            20             0.812
+                         ON NODE            21             0.812
+                         ON NODE            22             0.812
+                         ON NODE            23             0.812
+                         ON NODE            24             0.812
+                         ON NODE            25             0.811
+                         ON NODE            26             0.812
+                         ON NODE            27             0.811
+                         ON NODE            28             0.812
+                         ON NODE            29             0.811
+                         ON NODE            30             0.811
+                         ON NODE            31             0.811
+                         ON NODE            32             0.812
+                         ON NODE            33             0.811
+                         ON NODE            34             0.811
+                         ON NODE            35             0.811
+                         ON NODE            36             0.811
+                         ON NODE            37             0.811
+                         ON NODE            38             0.811
+                         ON NODE            39             0.811
+           AVERAGE PER PROCESSOR                           0.812
+ CORE INTEGRALS                              1             0.661         0.9 %
+ ORTHOGONALIZATION MATRIX                    1             0.154         0.2 %
+ MPI AUXILIARY FUNCTION FIT                 45             0.704         0.9 %
+                         ON NODE             1             0.796
+                         ON NODE             2             0.803
+                         ON NODE             3             0.809
+                         ON NODE             4             0.809
+                         ON NODE             5             0.798
+                         ON NODE             6             0.798
+                         ON NODE             7             0.811
+                         ON NODE             8             0.828
+                         ON NODE             9             0.799
+                         ON NODE            10             0.809
+                         ON NODE            11             0.799
+                         ON NODE            12             0.799
+                         ON NODE            13             0.794
+                         ON NODE            14             0.818
+                         ON NODE            15             0.782
+                         ON NODE            16             0.808
+                         ON NODE            17             0.801
+                         ON NODE            18             0.812
+                         ON NODE            19             0.788
+                         ON NODE            20             0.788
+                         ON NODE            21             0.802
+                         ON NODE            22             0.786
+                         ON NODE            23             0.786
+                         ON NODE            24             0.790
+                         ON NODE            25             0.801
+                         ON NODE            26             0.791
+                         ON NODE            27             0.821
+                         ON NODE            28             0.790
+                         ON NODE            29             0.820
+                         ON NODE            30             0.796
+                         ON NODE            31             0.797
+                         ON NODE            32             0.782
+                         ON NODE            33             0.802
+                         ON NODE            34             0.783
+                         ON NODE            35             0.824
+                         ON NODE            36             0.800
+                         ON NODE            37             0.813
+                         ON NODE            38             0.803
+                         ON NODE            39             0.793
+           AVERAGE PER PROCESSOR                           0.798
+ MPI CORE HAMILTONIAN                        1             0.075         0.1 %
+                         ON NODE             1             0.061
+                         ON NODE             2             0.061
+                         ON NODE             3             0.061
+                         ON NODE             4             0.061
+                         ON NODE             5             0.061
+                         ON NODE             6             0.061
+                         ON NODE             7             0.061
+                         ON NODE             8             0.061
+                         ON NODE             9             0.061
+                         ON NODE            10             0.061
+                         ON NODE            11             0.061
+                         ON NODE            12             0.061
+                         ON NODE            13             0.061
+                         ON NODE            14             0.061
+                         ON NODE            15             0.061
+                         ON NODE            16             0.061
+                         ON NODE            17             0.061
+                         ON NODE            18             0.061
+                         ON NODE            19             0.061
+                         ON NODE            20             0.061
+                         ON NODE            21             0.061
+                         ON NODE            22             0.061
+                         ON NODE            23             0.061
+                         ON NODE            24             0.061
+                         ON NODE            25             0.061
+                         ON NODE            26             0.061
+                         ON NODE            27             0.061
+                         ON NODE            28             0.061
+                         ON NODE            29             0.061
+                         ON NODE            30             0.061
+                         ON NODE            31             0.061
+                         ON NODE            32             0.061
+                         ON NODE            33             0.061
+                         ON NODE            34             0.061
+                         ON NODE            35             0.061
+                         ON NODE            36             0.061
+                         ON NODE            37             0.061
+                         ON NODE            38             0.061
+                         ON NODE            39             0.061
+           AVERAGE PER PROCESSOR                           0.061
+ MPI NEAR ERI CALCULATION                    1             0.261         0.3 %
+                         ON NODE             1             0.261
+                         ON NODE             2             0.261
+                         ON NODE             3             0.261
+                         ON NODE             4             0.261
+                         ON NODE             5             0.261
+                         ON NODE             6             0.261
+                         ON NODE             7             0.261
+                         ON NODE             8             0.261
+                         ON NODE             9             0.261
+                         ON NODE            10             0.261
+                         ON NODE            11             0.261
+                         ON NODE            12             0.261
+                         ON NODE            13             0.261
+                         ON NODE            14             0.261
+                         ON NODE            15             0.261
+                         ON NODE            16             0.261
+                         ON NODE            17             0.261
+                         ON NODE            18             0.261
+                         ON NODE            19             0.261
+                         ON NODE            20             0.261
+                         ON NODE            21             0.261
+                         ON NODE            22             0.261
+                         ON NODE            23             0.261
+                         ON NODE            24             0.261
+                         ON NODE            25             0.261
+                         ON NODE            26             0.261
+                         ON NODE            27             0.261
+                         ON NODE            28             0.261
+                         ON NODE            29             0.261
+                         ON NODE            30             0.261
+                         ON NODE            31             0.261
+                         ON NODE            32             0.261
+                         ON NODE            33             0.261
+                         ON NODE            34             0.261
+                         ON NODE            35             0.261
+                         ON NODE            36             0.261
+                         ON NODE            37             0.261
+                         ON NODE            38             0.261
+                         ON NODE            39             0.261
+           AVERAGE PER PROCESSOR                           0.261
+ SCF ITERATION                               1            58.343        76.8 %
+ NULLSPACE                                   2             0.159         0.2 %
+ MPI FAR J CALCULATION                      22             0.320         0.4 %
+                         ON NODE             1             0.320
+                         ON NODE             2             0.320
+                         ON NODE             3             0.320
+                         ON NODE             4             0.320
+                         ON NODE             5             0.320
+                         ON NODE             6             0.320
+                         ON NODE             7             0.320
+                         ON NODE             8             0.320
+                         ON NODE             9             0.320
+                         ON NODE            10             0.320
+                         ON NODE            11             0.320
+                         ON NODE            12             0.320
+                         ON NODE            13             0.320
+                         ON NODE            14             0.320
+                         ON NODE            15             0.320
+                         ON NODE            16             0.321
+                         ON NODE            17             0.320
+                         ON NODE            18             0.320
+                         ON NODE            19             0.321
+                         ON NODE            20             0.320
+                         ON NODE            21             0.320
+                         ON NODE            22             0.320
+                         ON NODE            23             0.320
+                         ON NODE            24             0.320
+                         ON NODE            25             0.320
+                         ON NODE            26             0.320
+                         ON NODE            27             0.320
+                         ON NODE            28             0.320
+                         ON NODE            29             0.320
+                         ON NODE            30             0.320
+                         ON NODE            31             0.320
+                         ON NODE            32             0.320
+                         ON NODE            33             0.320
+                         ON NODE            34             0.320
+                         ON NODE            35             0.320
+                         ON NODE            36             0.320
+                         ON NODE            37             0.320
+                         ON NODE            38             0.320
+                         ON NODE            39             0.320
+           AVERAGE PER PROCESSOR                           0.320
+ MPI EXX POTENTIAL                          22            45.347        59.7 %
+                         ON NODE             1            45.429
+                         ON NODE             2            45.431
+                         ON NODE             3            45.428
+                         ON NODE             4            45.381
+                         ON NODE             5            45.428
+                         ON NODE             6            45.427
+                         ON NODE             7            45.425
+                         ON NODE             8            45.426
+                         ON NODE             9            45.429
+                         ON NODE            10            45.427
+                         ON NODE            11            45.430
+                         ON NODE            12            45.408
+                         ON NODE            13            45.413
+                         ON NODE            14            45.427
+                         ON NODE            15            45.414
+                         ON NODE            16            45.420
+                         ON NODE            17            45.402
+                         ON NODE            18            45.417
+                         ON NODE            19            45.406
+                         ON NODE            20            45.431
+                         ON NODE            21            45.436
+                         ON NODE            22            45.433
+                         ON NODE            23            45.432
+                         ON NODE            24            45.428
+                         ON NODE            25            45.430
+                         ON NODE            26            45.433
+                         ON NODE            27            45.429
+                         ON NODE            28            45.429
+                         ON NODE            29            45.426
+                         ON NODE            30            45.430
+                         ON NODE            31            45.432
+                         ON NODE            32            45.430
+                         ON NODE            33            45.432
+                         ON NODE            34            45.431
+                         ON NODE            35            45.429
+                         ON NODE            36            45.433
+                         ON NODE            37            45.429
+                         ON NODE            38            45.433
+                         ON NODE            39            45.417
+           AVERAGE PER PROCESSOR                          45.423
+ CHOLESKY MO LOCALIZATION                   46             0.048         0.1 %
+ MPI FOSTER-BOYS MO LOCALIZATION            46             1.730         2.3 %
+                         ON NODE             1             0.880
+                         ON NODE             2             0.880
+                         ON NODE             3             0.880
+                         ON NODE             4             0.878
+                         ON NODE             5             0.880
+                         ON NODE             6             0.880
+                         ON NODE             7             0.880
+                         ON NODE             8             0.880
+                         ON NODE             9             0.880
+                         ON NODE            10             0.880
+                         ON NODE            11             0.880
+                         ON NODE            12             0.879
+                         ON NODE            13             0.880
+                         ON NODE            14             0.880
+                         ON NODE            15             0.880
+                         ON NODE            16             0.881
+                         ON NODE            17             0.880
+                         ON NODE            18             0.880
+                         ON NODE            19             0.878
+                         ON NODE            20             0.880
+                         ON NODE            21             0.880
+                         ON NODE            22             0.881
+                         ON NODE            23             0.880
+                         ON NODE            24             0.880
+                         ON NODE            25             0.880
+                         ON NODE            26             0.880
+                         ON NODE            27             0.880
+                         ON NODE            28             0.880
+                         ON NODE            29             0.880
+                         ON NODE            30             0.880
+                         ON NODE            31             0.881
+                         ON NODE            32             0.881
+                         ON NODE            33             0.881
+                         ON NODE            34             0.880
+                         ON NODE            35             0.880
+                         ON NODE            36             0.881
+                         ON NODE            37             0.880
+                         ON NODE            38             0.881
+                         ON NODE            39             0.880
+           AVERAGE PER PROCESSOR                           0.901
+ MPI OCTREE MO SORTING                      44             0.736         1.0 %
+                         ON NODE             1             0.734
+                         ON NODE             2             0.734
+                         ON NODE             3             0.734
+                         ON NODE             4             0.734
+                         ON NODE             5             0.734
+                         ON NODE             6             0.734
+                         ON NODE             7             0.734
+                         ON NODE             8             0.734
+                         ON NODE             9             0.734
+                         ON NODE            10             0.734
+                         ON NODE            11             0.734
+                         ON NODE            12             0.734
+                         ON NODE            13             0.734
+                         ON NODE            14             0.733
+                         ON NODE            15             0.734
+                         ON NODE            16             0.733
+                         ON NODE            17             0.734
+                         ON NODE            18             0.734
+                         ON NODE            19             0.734
+                         ON NODE            20             0.735
+                         ON NODE            21             0.734
+                         ON NODE            22             0.734
+                         ON NODE            23             0.734
+                         ON NODE            24             0.734
+                         ON NODE            25             0.734
+                         ON NODE            26             0.734
+                         ON NODE            27             0.734
+                         ON NODE            28             0.734
+                         ON NODE            29             0.734
+                         ON NODE            30             0.734
+                         ON NODE            31             0.734
+                         ON NODE            32             0.734
+                         ON NODE            33             0.734
+                         ON NODE            34             0.734
+                         ON NODE            35             0.734
+                         ON NODE            36             0.734
+                         ON NODE            37             0.734
+                         ON NODE            38             0.734
+                         ON NODE            39             0.734
+           AVERAGE PER PROCESSOR                           0.734
+ GRID INITIALIZATION                         2             0.004         0.0 %
+ ADAPTIVE GRID GENERATION                    2             2.818         3.7 %
+ MPI XC POTENTIAL                           22             2.414         3.2 %
+                         ON NODE             1             2.403
+                         ON NODE             2             2.403
+                         ON NODE             3             2.403
+                         ON NODE             4             2.400
+                         ON NODE             5             2.402
+                         ON NODE             6             2.402
+                         ON NODE             7             2.402
+                         ON NODE             8             2.401
+                         ON NODE             9             2.401
+                         ON NODE            10             2.401
+                         ON NODE            11             2.401
+                         ON NODE            12             2.401
+                         ON NODE            13             2.400
+                         ON NODE            14             2.400
+                         ON NODE            15             2.400
+                         ON NODE            16             2.400
+                         ON NODE            17             2.399
+                         ON NODE            18             2.399
+                         ON NODE            19             2.398
+                         ON NODE            20             2.395
+                         ON NODE            21             2.395
+                         ON NODE            22             2.395
+                         ON NODE            23             2.395
+                         ON NODE            24             2.394
+                         ON NODE            25             2.394
+                         ON NODE            26             2.394
+                         ON NODE            27             2.394
+                         ON NODE            28             2.394
+                         ON NODE            29             2.394
+                         ON NODE            30             2.393
+                         ON NODE            31             2.393
+                         ON NODE            32             2.393
+                         ON NODE            33             2.393
+                         ON NODE            34             2.393
+                         ON NODE            35             2.392
+                         ON NODE            36             2.392
+                         ON NODE            37             2.392
+                         ON NODE            38             2.392
+                         ON NODE            39             2.391
+           AVERAGE PER PROCESSOR                           2.397
+ MPI FAR ERI CALCULATION                    22             0.266         0.4 %
+                         ON NODE             1             0.267
+                         ON NODE             2             0.266
+                         ON NODE             3             0.266
+                         ON NODE             4             0.266
+                         ON NODE             5             0.267
+                         ON NODE             6             0.267
+                         ON NODE             7             0.267
+                         ON NODE             8             0.267
+                         ON NODE             9             0.267
+                         ON NODE            10             0.267
+                         ON NODE            11             0.266
+                         ON NODE            12             0.267
+                         ON NODE            13             0.267
+                         ON NODE            14             0.267
+                         ON NODE            15             0.266
+                         ON NODE            16             0.266
+                         ON NODE            17             0.266
+                         ON NODE            18             0.267
+                         ON NODE            19             0.266
+                         ON NODE            20             0.266
+                         ON NODE            21             0.266
+                         ON NODE            22             0.266
+                         ON NODE            23             0.267
+                         ON NODE            24             0.267
+                         ON NODE            25             0.267
+                         ON NODE            26             0.266
+                         ON NODE            27             0.266
+                         ON NODE            28             0.266
+                         ON NODE            29             0.266
+                         ON NODE            30             0.266
+                         ON NODE            31             0.266
+                         ON NODE            32             0.266
+                         ON NODE            33             0.266
+                         ON NODE            34             0.266
+                         ON NODE            35             0.266
+                         ON NODE            36             0.266
+                         ON NODE            37             0.266
+                         ON NODE            38             0.266
+                         ON NODE            39             0.266
+           AVERAGE PER PROCESSOR                           0.266
+ MPI EXX ENERGY                              1             1.575         2.1 %
+                         ON NODE             1             1.587
+                         ON NODE             2             1.586
+                         ON NODE             3             1.586
+                         ON NODE             4             1.584
+                         ON NODE             5             1.586
+                         ON NODE             6             1.586
+                         ON NODE             7             1.586
+                         ON NODE             8             1.586
+                         ON NODE             9             1.585
+                         ON NODE            10             1.586
+                         ON NODE            11             1.586
+                         ON NODE            12             1.586
+                         ON NODE            13             1.586
+                         ON NODE            14             1.586
+                         ON NODE            15             1.586
+                         ON NODE            16             1.586
+                         ON NODE            17             1.586
+                         ON NODE            18             1.586
+                         ON NODE            19             1.586
+                         ON NODE            20             1.586
+                         ON NODE            21             1.586
+                         ON NODE            22             1.586
+                         ON NODE            23             1.586
+                         ON NODE            24             1.586
+                         ON NODE            25             1.586
+                         ON NODE            26             1.586
+                         ON NODE            27             1.586
+                         ON NODE            28             1.586
+                         ON NODE            29             1.586
+                         ON NODE            30             1.586
+                         ON NODE            31             1.586
+                         ON NODE            32             1.586
+                         ON NODE            33             1.586
+                         ON NODE            34             1.586
+                         ON NODE            35             1.586
+                         ON NODE            36             1.586
+                         ON NODE            37             1.586
+                         ON NODE            38             1.586
+                         ON NODE            39             1.586
+           AVERAGE PER PROCESSOR                           1.586
+ MPI EPR A-TENSOR                            1             9.936        13.1 %
+                         ON NODE             1             9.960
+                         ON NODE             2             9.959
+                         ON NODE             3             9.959
+                         ON NODE             4             9.951
+                         ON NODE             5             9.959
+                         ON NODE             6             9.959
+                         ON NODE             7             9.958
+                         ON NODE             8             9.959
+                         ON NODE             9             9.959
+                         ON NODE            10             9.959
+                         ON NODE            11             9.960
+                         ON NODE            12             9.961
+                         ON NODE            13             9.959
+                         ON NODE            14             9.960
+                         ON NODE            15             9.961
+                         ON NODE            16             9.961
+                         ON NODE            17             9.957
+                         ON NODE            18             9.959
+                         ON NODE            19             9.961
+                         ON NODE            20             9.961
+                         ON NODE            21             9.961
+                         ON NODE            22             9.961
+                         ON NODE            23             9.960
+                         ON NODE            24             9.960
+                         ON NODE            25             9.960
+                         ON NODE            26             9.961
+                         ON NODE            27             9.961
+                         ON NODE            28             9.960
+                         ON NODE            29             9.960
+                         ON NODE            30             9.960
+                         ON NODE            31             9.960
+                         ON NODE            32             9.961
+                         ON NODE            33             9.961
+                         ON NODE            34             9.961
+                         ON NODE            35             9.961
+                         ON NODE            36             9.961
+                         ON NODE            37             9.961
+                         ON NODE            38             9.961
+                         ON NODE            39             9.962
+           AVERAGE PER PROCESSOR                           9.959
+ MPI PSO-SOC                                 1             8.082        10.6 %
+                         ON NODE             1             8.093
+                         ON NODE             2             8.093
+                         ON NODE             3             8.093
+                         ON NODE             4             8.088
+                         ON NODE             5             8.093
+                         ON NODE             6             8.092
+                         ON NODE             7             8.092
+                         ON NODE             8             8.093
+                         ON NODE             9             8.093
+                         ON NODE            10             8.093
+                         ON NODE            11             8.094
+                         ON NODE            12             8.094
+                         ON NODE            13             8.093
+                         ON NODE            14             8.094
+                         ON NODE            15             8.095
+                         ON NODE            16             8.095
+                         ON NODE            17             8.092
+                         ON NODE            18             8.093
+                         ON NODE            19             8.095
+                         ON NODE            20             8.095
+                         ON NODE            21             8.095
+                         ON NODE            22             8.095
+                         ON NODE            23             8.094
+                         ON NODE            24             8.094
+                         ON NODE            25             8.094
+                         ON NODE            26             8.094
+                         ON NODE            27             8.094
+                         ON NODE            28             8.094
+                         ON NODE            29             8.094
+                         ON NODE            30             8.094
+                         ON NODE            31             8.094
+                         ON NODE            32             8.094
+                         ON NODE            33             8.094
+                         ON NODE            34             8.094
+                         ON NODE            35             8.095
+                         ON NODE            36             8.095
+                         ON NODE            37             8.095
+                         ON NODE            38             8.095
+                         ON NODE            39             8.095
+           AVERAGE PER PROCESSOR                           8.093
+
+ FINAL TIMING           DATE: WED DEC 08 20:11:39 2021  TOTAL TIME:      75.927
