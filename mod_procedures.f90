@@ -138,10 +138,20 @@ MODULE mod_procedures
   SUBROUTINE change_extension(infile,old_ext,new_ext,outfile)
     implicit none
 
-  CHARACTER(LEN=*) :: infile,old_ext,new_ext,outfile
+    CHARACTER(LEN=*) :: infile,old_ext,new_ext,outfile
 
-  outfile = infile(1:INDEX(infile,old_ext)-1)//new_ext
+    outfile = infile(1:INDEX(infile,old_ext)-1)//new_ext
 
   END SUBROUTINE change_extension
+
+  CHARACTER(LEN=80) FUNCTION change_extension_fct(infile,old_ext,new_ext)
+    implicit none
+
+    CHARACTER(LEN=*) :: infile,old_ext,new_ext
+
+    change_extension_fct = TRIM(infile(1:INDEX(infile,old_ext)-1)//new_ext)
+
+  END FUNCTION change_extension_fct
+
 
 END MODULE mod_procedures
